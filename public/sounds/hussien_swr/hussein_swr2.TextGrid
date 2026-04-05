@@ -1,0 +1,1018 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 48.22785
+tiers? <exists>
+size = 7
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "subject_pronounciation"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 49
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 1.57455
+				text = "sælæ:mʊ "
+			intervals [3]:
+				xmin = 1.57455
+				xmax = 2.22995
+				text = "ʕæle:kʊ̃"
+			intervals [4]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [5]:
+				xmin = 3.01959
+				xmax = 3.94346
+				text = "ʔæbɪntʰæ"
+			intervals [6]:
+				xmin = 3.94346
+				xmax = 4.15666
+				text = ""
+			intervals [7]:
+				xmin = 4.15666
+				xmax = 4.93051
+				text = "ʔæ:"
+			intervals [8]:
+				xmin = 4.93051
+				xmax = 5.62538
+				text = ""
+			intervals [9]:
+				xmin = 5.62538
+				xmax = 6.84932
+				text = "  tæ:kʊlæh "
+			intervals [10]:
+				xmin = 6.84932
+				xmax = 9.92767
+				text = ""
+			intervals [11]:
+				xmin = 9.92767
+				xmax = 11.00529
+				text = "tæ:kʊlæh"
+			intervals [12]:
+				xmin = 11.00529
+				xmax = 11.56221
+				text = " ʔæh "
+			intervals [13]:
+				xmin = 11.56221
+				xmax = 12.76618
+				text = "tˤɑmɑtˤɪmɑ:h "
+			intervals [14]:
+				xmin = 12.76618
+				xmax = 13.45734
+				text = "wæ:  "
+			intervals [15]:
+				xmin = 13.45734
+				xmax = 13.77691
+				text = ""
+			intervals [16]:
+				xmin = 13.77691
+				xmax = 14.38834
+				text = "ʔæ:"
+			intervals [17]:
+				xmin = 14.38834
+				xmax = 15.47804
+				text = " χɪjæ:rɑ:h"
+			intervals [18]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [19]:
+				xmin = 18.78538
+				xmax = 20.27779
+				text = "bɪnt͡sæ bɪnt͡sæ "
+			intervals [20]:
+				xmin = 20.27779
+				xmax = 21.17008
+				text = "rɑsæm"
+			intervals [21]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [22]:
+				xmin = 23.2733
+				xmax = 24.24456
+				text = "bɪnt͡sæ "
+			intervals [23]:
+				xmin = 24.24456
+				xmax = 26.22654
+				text = "bɪʃæmsɪjjæ "
+			intervals [24]:
+				xmin = 26.22654
+				xmax = 26.39237
+				text = ""
+			intervals [25]:
+				xmin = 26.39237
+				xmax = 26.83456
+				text = "ʔæ"
+			intervals [26]:
+				xmin = 26.83456
+				xmax = 27.33993
+				text = "fi: "
+			intervals [27]:
+				xmin = 27.33993
+				xmax = 28.08219
+				text = "mɑtˤɑr"
+			intervals [28]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [29]:
+				xmin = 29.70358
+				xmax = 30.77718
+				text = "ʔælwælædæ "
+			intervals [30]:
+				xmin = 30.77718
+				xmax = 31.07724
+				text = ""
+			intervals [31]:
+				xmin = 31.07724
+				xmax = 32.37224
+				text = "ʔɪm χɑ: "
+			intervals [32]:
+				xmin = 32.37224
+				xmax = 33.47773
+				text = "ʔælwælædæ "
+			intervals [33]:
+				xmin = 33.47773
+				xmax = 34.59112
+				text = "jɑχɑsɪlæ "
+			intervals [34]:
+				xmin = 34.59112
+				xmax = 34.8438
+				text = ""
+			intervals [35]:
+				xmin = 34.8438
+				xmax = 35.7045
+				text = "ʔæsnæ:n"
+			intervals [36]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [37]:
+				xmin = 37.50364
+				xmax = 38.61703
+				text = "ʔælbɪnt͡sæ"
+			intervals [38]:
+				xmin = 38.61703
+				xmax = 38.76706
+				text = ""
+			intervals [39]:
+				xmin = 38.76706
+				xmax = 39.42246
+				text = " ʔɑ"
+			intervals [40]:
+				xmin = 39.42246
+				xmax = 40.64639
+				text = ""
+			intervals [41]:
+				xmin = 40.64639
+				xmax = 41.74398
+				text = " ʔælbɪnt͡sæ "
+			intervals [42]:
+				xmin = 41.74398
+				xmax = 42.98149
+				text = ""
+			intervals [43]:
+				xmin = 42.98149
+				xmax = 43.74007
+				text = "sˤɑħæ:"
+			intervals [44]:
+				xmin = 43.74007
+				xmax = 43.8822
+				text = ""
+			intervals [45]:
+				xmin = 43.8822
+				xmax = 44.12699
+				text = " mɪ"
+			intervals [46]:
+				xmin = 44.12699
+				xmax = 44.56076
+				text = "nno:m"
+			intervals [47]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [48]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "xɑlɑ:sˤ"
+			intervals [49]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [2]:
+		class = "IntervalTier"
+		name = "sentence"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 15
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 2.22995
+				text = "sælæ:mʊ ʕæle:kʊ̃"
+			intervals [3]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [4]:
+				xmin = 3.01959
+				xmax = 15.47804
+				text = "ʔæbɪntʰæ ʔæ:  tæ:kʊlæh tæ:kʊlæh ʔæh tˤɑmɑtˤɪmɑ:h  wæ:  ʔæ: χɪjæ:rɑ:h"
+			intervals [5]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [6]:
+				xmin = 18.78538
+				xmax = 21.17008
+				text = "bɪnt͡sæ bɪnt͡sæ rɑsæm"
+			intervals [7]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [8]:
+				xmin = 23.2733
+				xmax = 28.08219
+				text = "bɪnt͡sæ bɪʃæmsɪjjæ ʔæ fi: mɑtˤɑr"
+			intervals [9]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [10]:
+				xmin = 29.70358
+				xmax = 35.7045
+				text = "ʔælwælædæ ʔɪm χɑ: ʔælwælædæ jɑχɑsɪlæ ʔæsnæ:n"
+			intervals [11]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [12]:
+				xmin = 37.50364
+				xmax = 44.56076
+				text = "ʔælbɪnt͡sæ ʔɑ ʔælbɪnt͡sæ sˤɑħæ: mɪnno:m"
+			intervals [13]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [14]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "xɑlɑ:sˤ"
+			intervals [15]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [3]:
+		class = "IntervalTier"
+		name = "arabic_representation"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 49
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 1.57455
+				text = "السلام"
+			intervals [3]:
+				xmin = 1.57455
+				xmax = 2.22995
+				text = "عليكم"
+			intervals [4]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [5]:
+				xmin = 3.01959
+				xmax = 3.94346
+				text = "بنت"
+			intervals [6]:
+				xmin = 3.94346
+				xmax = 4.15666
+				text = ""
+			intervals [7]:
+				xmin = 4.15666
+				xmax = 4.93051
+				text = "-"
+			intervals [8]:
+				xmin = 4.93051
+				xmax = 5.62538
+				text = ""
+			intervals [9]:
+				xmin = 5.62538
+				xmax = 6.84932
+				text = "تأكل"
+			intervals [10]:
+				xmin = 6.84932
+				xmax = 9.92767
+				text = ""
+			intervals [11]:
+				xmin = 9.92767
+				xmax = 11.00529
+				text = "تأكل"
+			intervals [12]:
+				xmin = 11.00529
+				xmax = 11.56221
+				text = ""
+			intervals [13]:
+				xmin = 11.56221
+				xmax = 12.76618
+				text = "طماطم"
+			intervals [14]:
+				xmin = 12.76618
+				xmax = 13.45734
+				text = "و"
+			intervals [15]:
+				xmin = 13.45734
+				xmax = 13.77691
+				text = ""
+			intervals [16]:
+				xmin = 13.77691
+				xmax = 14.38834
+				text = "-"
+			intervals [17]:
+				xmin = 14.38834
+				xmax = 15.47804
+				text = "خيار"
+			intervals [18]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [19]:
+				xmin = 18.78538
+				xmax = 20.27779
+				text = "بنت"
+			intervals [20]:
+				xmin = 20.27779
+				xmax = 21.17008
+				text = "رسم"
+			intervals [21]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [22]:
+				xmin = 23.2733
+				xmax = 24.24456
+				text = "بنت"
+			intervals [23]:
+				xmin = 24.24456
+				xmax = 26.22654
+				text = "بشمسية"
+			intervals [24]:
+				xmin = 26.22654
+				xmax = 26.39237
+				text = ""
+			intervals [25]:
+				xmin = 26.39237
+				xmax = 26.83456
+				text = "-"
+			intervals [26]:
+				xmin = 26.83456
+				xmax = 27.33993
+				text = "في"
+			intervals [27]:
+				xmin = 27.33993
+				xmax = 28.08219
+				text = "مطر"
+			intervals [28]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [29]:
+				xmin = 29.70358
+				xmax = 30.77718
+				text = "الولد"
+			intervals [30]:
+				xmin = 30.77718
+				xmax = 31.07724
+				text = ""
+			intervals [31]:
+				xmin = 31.07724
+				xmax = 32.37224
+				text = "-"
+			intervals [32]:
+				xmin = 32.37224
+				xmax = 33.47773
+				text = "الولد"
+			intervals [33]:
+				xmin = 33.47773
+				xmax = 34.59112
+				text = "يغسل"
+			intervals [34]:
+				xmin = 34.59112
+				xmax = 34.8438
+				text = ""
+			intervals [35]:
+				xmin = 34.8438
+				xmax = 35.7045
+				text = "أسنان"
+			intervals [36]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [37]:
+				xmin = 37.50364
+				xmax = 38.61703
+				text = "البنت"
+			intervals [38]:
+				xmin = 38.61703
+				xmax = 38.76706
+				text = ""
+			intervals [39]:
+				xmin = 38.76706
+				xmax = 39.42246
+				text = "-"
+			intervals [40]:
+				xmin = 39.42246
+				xmax = 40.64639
+				text = ""
+			intervals [41]:
+				xmin = 40.64639
+				xmax = 41.74398
+				text = "البنت"
+			intervals [42]:
+				xmin = 41.74398
+				xmax = 42.98149
+				text = ""
+			intervals [43]:
+				xmin = 42.98149
+				xmax = 43.74007
+				text = "صحيت"
+			intervals [44]:
+				xmin = 43.74007
+				xmax = 43.8822
+				text = ""
+			intervals [45]:
+				xmin = 43.8822
+				xmax = 44.12699
+				text = "من"
+			intervals [46]:
+				xmin = 44.12699
+				xmax = 44.56076
+				text = "النوم"
+			intervals [47]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [48]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "خلاص"
+			intervals [49]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [4]:
+		class = "IntervalTier"
+		name = "correct_word_pronounciation"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 49
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 1.57455
+				text = "ʔæssælæ:mʊ "
+			intervals [3]:
+				xmin = 1.57455
+				xmax = 2.22995
+				text = "ʕælæjkʊm"
+			intervals [4]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [5]:
+				xmin = 3.01959
+				xmax = 3.94346
+				text = "ʔæbɪntʊ"
+			intervals [6]:
+				xmin = 3.94346
+				xmax = 4.15666
+				text = ""
+			intervals [7]:
+				xmin = 4.15666
+				xmax = 4.93051
+				text = "-"
+			intervals [8]:
+				xmin = 4.93051
+				xmax = 5.62538
+				text = ""
+			intervals [9]:
+				xmin = 5.62538
+				xmax = 6.84932
+				text = "  tæʔkʊlʊ "
+			intervals [10]:
+				xmin = 6.84932
+				xmax = 9.92767
+				text = ""
+			intervals [11]:
+				xmin = 9.92767
+				xmax = 11.00529
+				text = "tæʔkʊlʊ"
+			intervals [12]:
+				xmin = 11.00529
+				xmax = 11.56221
+				text = "-"
+			intervals [13]:
+				xmin = 11.56221
+				xmax = 12.76618
+				text = "tˤɑmɑtˤɪmɑ"
+			intervals [14]:
+				xmin = 12.76618
+				xmax = 13.45734
+				text = "wæ:  "
+			intervals [15]:
+				xmin = 13.45734
+				xmax = 13.77691
+				text = ""
+			intervals [16]:
+				xmin = 13.77691
+				xmax = 14.38834
+				text = "-"
+			intervals [17]:
+				xmin = 14.38834
+				xmax = 15.47804
+				text = " χɪjɑ:rɑ"
+			intervals [18]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [19]:
+				xmin = 18.78538
+				xmax = 20.27779
+				text = "bɪntʊ"
+			intervals [20]:
+				xmin = 20.27779
+				xmax = 21.17008
+				text = "rɑsæmɪt"
+			intervals [21]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [22]:
+				xmin = 23.2733
+				xmax = 24.24456
+				text = "bɪntʊ"
+			intervals [23]:
+				xmin = 24.24456
+				xmax = 26.22654
+				text = "bɪʃæmsɪjjæ "
+			intervals [24]:
+				xmin = 26.22654
+				xmax = 26.39237
+				text = ""
+			intervals [25]:
+				xmin = 26.39237
+				xmax = 26.83456
+				text = "-"
+			intervals [26]:
+				xmin = 26.83456
+				xmax = 27.33993
+				text = "fi: "
+			intervals [27]:
+				xmin = 27.33993
+				xmax = 28.08219
+				text = "mɑtˤɑr"
+			intervals [28]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [29]:
+				xmin = 29.70358
+				xmax = 30.77718
+				text = "ʔælwælædʊ"
+			intervals [30]:
+				xmin = 30.77718
+				xmax = 31.07724
+				text = ""
+			intervals [31]:
+				xmin = 31.07724
+				xmax = 32.37224
+				text = "-"
+			intervals [32]:
+				xmin = 32.37224
+				xmax = 33.47773
+				text = "ʔælwælædtʊ "
+			intervals [33]:
+				xmin = 33.47773
+				xmax = 34.59112
+				text = "jɑɣsɪlæ "
+			intervals [34]:
+				xmin = 34.59112
+				xmax = 34.8438
+				text = ""
+			intervals [35]:
+				xmin = 34.8438
+				xmax = 35.7045
+				text = "ʔæsnæ:nʊh"
+			intervals [36]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [37]:
+				xmin = 37.50364
+				xmax = 38.61703
+				text = "ʔælbɪntʊ"
+			intervals [38]:
+				xmin = 38.61703
+				xmax = 38.76706
+				text = ""
+			intervals [39]:
+				xmin = 38.76706
+				xmax = 39.42246
+				text = "-"
+			intervals [40]:
+				xmin = 39.42246
+				xmax = 40.64639
+				text = ""
+			intervals [41]:
+				xmin = 40.64639
+				xmax = 41.74398
+				text = " ʔælbɪntʊ"
+			intervals [42]:
+				xmin = 41.74398
+				xmax = 42.98149
+				text = ""
+			intervals [43]:
+				xmin = 42.98149
+				xmax = 43.74007
+				text = "sˤɑħɪt"
+			intervals [44]:
+				xmin = 43.74007
+				xmax = 43.8822
+				text = ""
+			intervals [45]:
+				xmin = 43.8822
+				xmax = 44.12699
+				text = " mɪn"
+			intervals [46]:
+				xmin = 44.12699
+				xmax = 44.56076
+				text = "no:m"
+			intervals [47]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [48]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "xɑlɑ:sˤ"
+			intervals [49]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [5]:
+		class = "IntervalTier"
+		name = "correct_sentence_pronounciation"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 15
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 2.22995
+				text = "ʔæssælæ:mʊ ʕælæjkʊm"
+			intervals [3]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [4]:
+				xmin = 3.01959
+				xmax = 15.47804
+				text = "ʔæbɪntʊ tæʔkʊlʊ tˤɑmɑtˤɪmɑ wæ: χɪjɑ:rɑ"
+			intervals [5]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [6]:
+				xmin = 18.78538
+				xmax = 21.17008
+				text = "bɪntʊ rɑsæmɪt"
+			intervals [7]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [8]:
+				xmin = 23.2733
+				xmax = 28.08219
+				text = "bɪntʊ bɪʃæmsɪjjæ  fi: mɑtˤɑr"
+			intervals [9]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [10]:
+				xmin = 29.70358
+				xmax = 35.7045
+				text = "ʔælwælædʊ  jɑɣsɪlæ ʔæsnæ:nʊh"
+			intervals [11]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [12]:
+				xmin = 37.50364
+				xmax = 44.56076
+				text = "ʔælbɪntʊ sˤɑħɪt mɪnno:m"
+			intervals [13]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [14]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "xɑlɑ:sˤ"
+			intervals [15]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [6]:
+		class = "IntervalTier"
+		name = "phonological_processes"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 49
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 1.57455
+				text = "-"
+			intervals [3]:
+				xmin = 1.57455
+				xmax = 2.22995
+				text = "Vowel  nasalization"
+			intervals [4]:
+				xmin = 2.22995
+				xmax = 3.01959
+				text = ""
+			intervals [5]:
+				xmin = 3.01959
+				xmax = 3.94346
+				text = "Aspiration ( substitution of [t]with [tʰ]) "
+			intervals [6]:
+				xmin = 3.94346
+				xmax = 4.15666
+				text = ""
+			intervals [7]:
+				xmin = 4.15666
+				xmax = 4.93051
+				text = "-"
+			intervals [8]:
+				xmin = 4.93051
+				xmax = 5.62538
+				text = ""
+			intervals [9]:
+				xmin = 5.62538
+				xmax = 6.84932
+				text = "-"
+			intervals [10]:
+				xmin = 6.84932
+				xmax = 9.92767
+				text = ""
+			intervals [11]:
+				xmin = 9.92767
+				xmax = 11.00529
+				text = "-"
+			intervals [12]:
+				xmin = 11.00529
+				xmax = 11.56221
+				text = ""
+			intervals [13]:
+				xmin = 11.56221
+				xmax = 12.76618
+				text = "-"
+			intervals [14]:
+				xmin = 12.76618
+				xmax = 13.45734
+				text = "-"
+			intervals [15]:
+				xmin = 13.45734
+				xmax = 13.77691
+				text = ""
+			intervals [16]:
+				xmin = 13.77691
+				xmax = 14.38834
+				text = "-"
+			intervals [17]:
+				xmin = 14.38834
+				xmax = 15.47804
+				text = "-"
+			intervals [18]:
+				xmin = 15.47804
+				xmax = 18.78538
+				text = ""
+			intervals [19]:
+				xmin = 18.78538
+				xmax = 20.27779
+				text = "substitution of [t]with [t͡s ]"
+			intervals [20]:
+				xmin = 20.27779
+				xmax = 21.17008
+				text = "-"
+			intervals [21]:
+				xmin = 21.17008
+				xmax = 23.2733
+				text = ""
+			intervals [22]:
+				xmin = 23.2733
+				xmax = 24.24456
+				text = "substitution of [t]with [t͡s ]"
+			intervals [23]:
+				xmin = 24.24456
+				xmax = 26.22654
+				text = "-"
+			intervals [24]:
+				xmin = 26.22654
+				xmax = 26.39237
+				text = ""
+			intervals [25]:
+				xmin = 26.39237
+				xmax = 26.83456
+				text = "-"
+			intervals [26]:
+				xmin = 26.83456
+				xmax = 27.33993
+				text = "-"
+			intervals [27]:
+				xmin = 27.33993
+				xmax = 28.08219
+				text = "-"
+			intervals [28]:
+				xmin = 28.08219
+				xmax = 29.70358
+				text = ""
+			intervals [29]:
+				xmin = 29.70358
+				xmax = 30.77718
+				text = "-"
+			intervals [30]:
+				xmin = 30.77718
+				xmax = 31.07724
+				text = ""
+			intervals [31]:
+				xmin = 31.07724
+				xmax = 32.37224
+				text = "-"
+			intervals [32]:
+				xmin = 32.37224
+				xmax = 33.47773
+				text = "-"
+			intervals [33]:
+				xmin = 33.47773
+				xmax = 34.59112
+				text = "devoicing(substitution of [ɣ]with [χ]), Epenthesis(insertion of [ ɑ] phone between consonant cluster)"
+			intervals [34]:
+				xmin = 34.59112
+				xmax = 34.8438
+				text = ""
+			intervals [35]:
+				xmin = 34.8438
+				xmax = 35.7045
+				text = "syllable structure process (first syllable deletion) -------------"
+			intervals [36]:
+				xmin = 35.7045
+				xmax = 37.50364
+				text = ""
+			intervals [37]:
+				xmin = 37.50364
+				xmax = 38.61703
+				text = "substitution of [t]with [t͡s ]"
+			intervals [38]:
+				xmin = 38.61703
+				xmax = 38.76706
+				text = ""
+			intervals [39]:
+				xmin = 38.76706
+				xmax = 39.42246
+				text = "-"
+			intervals [40]:
+				xmin = 39.42246
+				xmax = 40.64639
+				text = ""
+			intervals [41]:
+				xmin = 40.64639
+				xmax = 41.74398
+				text = "substitution of [t]with [t͡s ]"
+			intervals [42]:
+				xmin = 41.74398
+				xmax = 42.98149
+				text = ""
+			intervals [43]:
+				xmin = 42.98149
+				xmax = 43.74007
+				text = "-"
+			intervals [44]:
+				xmin = 43.74007
+				xmax = 43.8822
+				text = ""
+			intervals [45]:
+				xmin = 43.8822
+				xmax = 44.12699
+				text = "-"
+			intervals [46]:
+				xmin = 44.12699
+				xmax = 44.56076
+				text = "-"
+			intervals [47]:
+				xmin = 44.56076
+				xmax = 46.75594
+				text = ""
+			intervals [48]:
+				xmin = 46.75594
+				xmax = 47.34817
+				text = "-"
+			intervals [49]:
+				xmin = 47.34817
+				xmax = 48.22785
+				text = ""
+	item [7]:
+		class = "IntervalTier"
+		name = "notes"
+		xmin = 0.0
+		xmax = 48.22785
+		intervals: size = 16
+			intervals [1]:
+				xmin = 0.0
+				xmax = 1.05339
+				text = ""
+			intervals [2]:
+				xmin = 1.05339
+				xmax = 1.57455
+				text = "Definite Article deletion"
+			intervals [3]:
+				xmin = 1.57455
+				xmax = 2.22995
+				text = "replace the Modern Standard Arabic diphthong [æj]with the colloquial arabic vowel[e:]"
+			intervals [4]:
+				xmin = 2.22995
+				xmax = 5.62538
+				text = ""
+			intervals [5]:
+				xmin = 5.62538
+				xmax = 6.84932
+				text = "final consonant deletion affected by colloquial arabic, consonant insertion of  [h] phone in final position"
+			intervals [6]:
+				xmin = 6.84932
+				xmax = 9.92767
+				text = ""
+			intervals [7]:
+				xmin = 9.92767
+				xmax = 11.00529
+				text = "final consonant deletion affected by colloquial arabic, consonant insertion of  [h] phone in final position"
+			intervals [8]:
+				xmin = 11.00529
+				xmax = 11.56221
+				text = ""
+			intervals [9]:
+				xmin = 11.56221
+				xmax = 12.76618
+				text = "consonant insertion of  [h] phone in final position"
+			intervals [10]:
+				xmin = 12.76618
+				xmax = 14.38834
+				text = ""
+			intervals [11]:
+				xmin = 14.38834
+				xmax = 15.47804
+				text = "consonant insertion of  [h] phone in final position"
+			intervals [12]:
+				xmin = 15.47804
+				xmax = 20.27779
+				text = ""
+			intervals [13]:
+				xmin = 20.27779
+				xmax = 21.17008
+				text = "Deletion of feminine marker"
+			intervals [14]:
+				xmin = 21.17008
+				xmax = 42.98149
+				text = ""
+			intervals [15]:
+				xmin = 42.98149
+				xmax = 43.74007
+				text = "Deletion of feminine marker"
+			intervals [16]:
+				xmin = 43.74007
+				xmax = 48.22785
+				text = ""

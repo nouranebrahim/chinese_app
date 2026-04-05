@@ -28,7 +28,7 @@ use App\Http\Controllers\IsolatedWordsController;
 Route::get('/', function () {
     return view('welcome');
 });
-//Route::get('/insertdata', [XmlImportController::class, 'importFromXml']);
+Route::get('/insertdata', [XmlImportController::class, 'importFromXml']);
 // Route::get('/import/ebrahim', [XmlControllerNew::class, 'importEbrahimXML']);
 
 //Route::get('/import-isolated', [IsolatedWordsController::class, 'importIsolatedWords']);

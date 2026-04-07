@@ -6,7 +6,7 @@
 <!-- <p><strong>File:</strong> {{ $sound->sound_name }}</p> -->
 
 <audio id="sharedAudio" hidden>
-    <source id="sharedSource" src="{{ asset($sound->sound_name) }}" type="audio/wav">
+    <source id="sharedSource" src="{{ asset($sound->sound_name) }}" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 

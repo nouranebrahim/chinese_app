@@ -87,8 +87,10 @@ class DatabaseSeeder extends Seeder
                     $statement = str_replace("\\'", "''", $statement);
                 }
                 // Fix enum mismatch: MySQL data has 'picture_description', migration uses 'picture description'
+                // Also convert .wav references to .mp3
                 if ($table === 'sounds') {
                     $statement = str_replace('picture_description', 'picture description', $statement);
+                    $statement = str_replace('.wav', '.mp3', $statement);
                 }
                 DB::unprepared($statement);
             }

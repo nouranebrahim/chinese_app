@@ -11,6 +11,7 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database from chinese.sql dump.
      *
      * Seeds: users, sounds, sentences, words (new schema).
+     * Supports both MySQL and PostgreSQL.
      */
     public function run(): void
     {
@@ -41,24 +42,51 @@ class DatabaseSeeder extends Seeder
         // Free the large string from memory
         unset($sql);
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        $driver = DB::connection()->getDriverName();
+        $isPgsql = $driver === 'pgsql';
+
+        // Disable FK constraints
+        if ($isPgsql) {
+            DB::statement('SET session_replication_role = \'replica\'');
+        } else {
+            DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        }
 
         // Truncate in reverse FK order
-        DB::table('words')->truncate();
-        DB::table('sentences')->truncate();
-        DB::table('sounds')->truncate();
-        DB::table('users')->truncate();
+        foreach (array_reverse($tables) as $table) {
+            if ($isPgsql) {
+                DB::statement("TRUNCATE TABLE \"{$table}\" CASCADE");
+            } else {
+                DB::table($table)->truncate();
+            }
+        }
 
         // Insert in FK order
         foreach ($tables as $table) {
             $count = count($inserts[$table]);
             $this->command->info("Seeding {$table} ({$count} batch(es))...");
             foreach ($inserts[$table] as $statement) {
+                // Convert MySQL backticks to PostgreSQL double quotes
+                if ($isPgsql) {
+                    $statement = str_replace('`', '"', $statement);
+                }
                 DB::unprepared($statement);
             }
         }
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=1');
+        // Reset auto-increment sequences for PostgreSQL
+        if ($isPgsql) {
+            foreach ($tables as $table) {
+                DB::statement("SELECT setval(pg_get_serial_sequence('\"$table\"', 'id'), COALESCE((SELECT MAX(id) FROM \"$table\"), 0) + 1, false)");
+            }
+        }
+
+        // Re-enable FK constraints
+        if ($isPgsql) {
+            DB::statement('SET session_replication_role = \'origin\'');
+        } else {
+            DB::statement('SET FOREIGN_KEY_CHECKS=1');
+        }
 
         // Verify counts
         $counts = [

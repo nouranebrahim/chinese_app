@@ -45,28 +45,22 @@ class DatabaseSeeder extends Seeder
         $driver = DB::connection()->getDriverName();
         $isPgsql = $driver === 'pgsql';
 
-        // Disable FK constraints
-        if ($isPgsql) {
-            DB::statement('SET session_replication_role = \'replica\'');
-        } else {
-            DB::statement('SET FOREIGN_KEY_CHECKS=0');
-        }
-
         // Truncate in reverse FK order
         foreach (array_reverse($tables) as $table) {
             if ($isPgsql) {
-                DB::statement("TRUNCATE TABLE \"{$table}\" CASCADE");
+                DB::statement("TRUNCATE TABLE \"{$table}\" RESTART IDENTITY CASCADE");
             } else {
+                DB::statement('SET FOREIGN_KEY_CHECKS=0');
                 DB::table($table)->truncate();
+                DB::statement('SET FOREIGN_KEY_CHECKS=1');
             }
         }
 
-        // Insert in FK order
+        // Insert in FK order (users → sounds → sentences → words)
         foreach ($tables as $table) {
             $count = count($inserts[$table]);
             $this->command->info("Seeding {$table} ({$count} batch(es))...");
             foreach ($inserts[$table] as $statement) {
-                // Convert MySQL backticks to PostgreSQL double quotes
                 if ($isPgsql) {
                     $statement = str_replace('`', '"', $statement);
                 }
@@ -77,15 +71,8 @@ class DatabaseSeeder extends Seeder
         // Reset auto-increment sequences for PostgreSQL
         if ($isPgsql) {
             foreach ($tables as $table) {
-                DB::statement("SELECT setval(pg_get_serial_sequence('\"$table\"', 'id'), COALESCE((SELECT MAX(id) FROM \"$table\"), 0) + 1, false)");
+                DB::statement("SELECT setval(pg_get_serial_sequence('{$table}', 'id'), COALESCE((SELECT MAX(id) FROM \"{$table}\"), 0))");
             }
-        }
-
-        // Re-enable FK constraints
-        if ($isPgsql) {
-            DB::statement('SET session_replication_role = \'origin\'');
-        } else {
-            DB::statement('SET FOREIGN_KEY_CHECKS=1');
         }
 
         // Verify counts

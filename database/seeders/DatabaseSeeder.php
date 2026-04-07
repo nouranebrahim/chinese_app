@@ -25,22 +25,42 @@ class DatabaseSeeder extends Seeder
         $sql = file_get_contents($sqlPath);
 
         // Extract all INSERT INTO blocks for each target table.
-        // SQL dumps split large tables into multiple INSERT statements.
+        // Uses line-based parsing to correctly handle semicolons inside data values.
+        // phpMyAdmin dumps have each INSERT ending with ");\n" on the last row.
         $tables = ['users', 'sounds', 'sentences', 'words'];
+        $targetTables = array_flip($tables);
         $inserts = [];
+        $lines = explode("\n", $sql);
+        $currentTable = null;
+        $currentStmt = '';
+
+        foreach ($lines as $line) {
+            if (preg_match('/^INSERT INTO `(\w+)`/', $line, $m)) {
+                $currentTable = $m[1];
+                $currentStmt = $line;
+            } elseif ($currentTable !== null) {
+                $currentStmt .= "\n" . $line;
+            }
+
+            // Statement ends when line ends with ");" (phpMyAdmin dump format)
+            if ($currentTable !== null && preg_match('/\);\s*$/', $line)) {
+                if (isset($targetTables[$currentTable])) {
+                    $inserts[$currentTable][] = $currentStmt;
+                }
+                $currentTable = null;
+                $currentStmt = '';
+            }
+        }
+
+        // Free memory
+        unset($sql, $lines);
 
         foreach ($tables as $table) {
-            $pattern = '/INSERT INTO `' . preg_quote($table, '/') . '`[^;]+;/su';
-            if (preg_match_all($pattern, $sql, $matches)) {
-                $inserts[$table] = $matches[0]; // array of INSERT statements
-            } else {
+            if (empty($inserts[$table])) {
                 $this->command->error("No INSERT data found for table: {$table}");
                 return;
             }
         }
-
-        // Free the large string from memory
-        unset($sql);
 
         $driver = DB::connection()->getDriverName();
         $isPgsql = $driver === 'pgsql';

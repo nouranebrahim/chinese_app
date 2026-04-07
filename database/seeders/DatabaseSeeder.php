@@ -83,6 +83,8 @@ class DatabaseSeeder extends Seeder
             foreach ($inserts[$table] as $statement) {
                 if ($isPgsql) {
                     $statement = str_replace('`', '"', $statement);
+                    // MySQL escapes single quotes as \', PostgreSQL uses ''
+                    $statement = str_replace("\\'", "''", $statement);
                 }
                 // Fix enum mismatch: MySQL data has 'picture_description', migration uses 'picture description'
                 if ($table === 'sounds') {

@@ -64,6 +64,10 @@ class DatabaseSeeder extends Seeder
                 if ($isPgsql) {
                     $statement = str_replace('`', '"', $statement);
                 }
+                // Fix enum mismatch: MySQL data has 'picture_description', migration uses 'picture description'
+                if ($table === 'sounds') {
+                    $statement = str_replace('picture_description', 'picture description', $statement);
+                }
                 DB::unprepared($statement);
             }
         }

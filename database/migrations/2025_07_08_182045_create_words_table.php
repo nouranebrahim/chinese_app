@@ -18,8 +18,8 @@ return new class extends Migration
             $table->text('correct_pronunciation');
             $table->text('phonological_errors')->nullable();
             $table->text('notes')->nullable();
-            $table->time('start_time');
-            $table->time('end_time');
+            $table->time('start_time',7);
+            $table->time('end_time',7);
             $table->unsignedBigInteger('sentence_id')->nullable();
             $table->unsignedBigInteger('sound_id');
             $table->timestamps();

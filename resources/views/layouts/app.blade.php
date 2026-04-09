@@ -41,7 +41,7 @@
         
         .contact-box {
             position: absolute;
-            bottom: 50px;   /* تتحكمي في ارتفاعها */
+            bottom: 70px;   /* تتحكمي في ارتفاعها */
             left: 0px;
             right: 0px;
         }

@@ -46,7 +46,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach ($sentence->words as $word)
+                        @foreach ($sentence->words->sortBy('id') as $word)
                             <tr>
                                 <td>{{ $word->arabic_word }}</td>
                                 <td>{{ $word->subject_pronunciation }}</td>

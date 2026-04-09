@@ -16,7 +16,7 @@ class SoundController extends Controller
         $sound = Sound::with(['sentences.words'])->findOrFail($id);
     
         // Get isolated words (words with sentence_id = null)
-        $isolatedWords = $sound->words()->whereNull('sentence_id')->get();
+        $isolatedWords = $sound->words()->whereNull('sentence_id')->orderBy('id')->get();
     
         return view('sounds.show', compact('sound', 'isolatedWords'));
     }

@@ -35,8 +35,16 @@
             border-right: 1px solid #dee2e6 !important;
             overflow-y: auto !important;
             font-size: 18px !important;
+            display: flex;              /* مهم */
+            flex-direction: column;
         }
-
+        
+        .contact-box {
+            position: absolute;
+            bottom: 50px;   /* تتحكمي في ارتفاعها */
+            left: 0px;
+            right: 0px;
+        }
         .content {
             margin-left: 240px !important;
             padding: 30px !important;
@@ -79,7 +87,7 @@
             <li class="nav-item"><a href="{{ url('/levels/advanced/users') }}" class="nav-link">Advanced</a></li>
         </ul>
         
-        <div style="margin-top: auto; padding: 10px;">
+        <div style="margin-top: auto; padding: 10px;" class="contact-box">
             <div style="
                 background: #f1f1f1;
                 padding: 8px;
@@ -91,7 +99,7 @@
                     Contact Us:
                 </span>
                 <a href="mailto:nouran.ibrahim01723@alexu.edu.eg"
-                   style="font-weight: bold; font-size: 13px; color: #007bff; text-decoration: none;">
+                   style="font-weight: bold; font-size: 11px; color: #007bff; text-decoration: none;">
                     nouran.ibrahim01723@alexu.edu.eg
                 </a>
             </div>

@@ -16,8 +16,8 @@ return new class extends Migration
         $table->unsignedBigInteger('sound_id');
         $table->text('subject_sentence');
         $table->text('correct_sentence');
-        $table->time('start_time');
-        $table->time('end_time');
+        $table->time('start_time',7);
+        $table->time('end_time',7);
         $table->timestamps();
 
         $table->foreign('sound_id')->references('id')->on('sounds')->onDelete('cascade');

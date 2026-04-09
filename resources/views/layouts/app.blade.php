@@ -79,13 +79,23 @@
             <li class="nav-item"><a href="{{ url('/levels/advanced/users') }}" class="nav-link">Advanced</a></li>
         </ul>
         
-        <div class="text-center mt-3 px-2">
-            <h6 style="font-size: 15px; color: #555;">Contact Us</h6>
-            <a href="mailto:nouran.ibrahim01723@alexu.edu.eg" 
-            style="font-size: 13px; color: #007bff; text-decoration: none; word-break: break-word;">
-            nouran.ibrahim01723@alexu.edu.eg
-            </a>
-        </div>
+        <div style="margin-top: auto; padding: 10px;">
+            <div style="
+                background: #f1f1f1;
+                padding: 8px;
+                border-radius: 6px;
+                text-align: center;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            ">
+                <span style="font-weight: bold; font-size: 13px; color: #333;">
+                    Contact Us:
+                </span>
+                <a href="mailto:nouran.ibrahim01723@alexu.edu.eg"
+                   style="font-weight: bold; font-size: 13px; color: #007bff; text-decoration: none;">
+                    nouran.ibrahim01723@alexu.edu.eg
+                </a>
+            </div>
+</div>
     </div>
 
     <!-- Main Content -->
